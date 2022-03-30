@@ -1,0 +1,39 @@
+ORIGIN => REMOTO
+
+ORGIN/MAIN != MAIN
+ESC + SHIFT + . wq (Write and Quit)
+
+BASIC
+$ git init => Creará un nuevo repositorio local GIT. Usando git init [nombre del proyecto] 
+$ git clone => apuntar a un repositorio existente y hacer un clon o una copia de ese repositorio en un nuevo directorio, en otra ubicación
+$ git add => agregar archivos al area de preparacion
+$ git commit => crear un cambio para guardarlo en el directorio
+$ git status => muestre la lista de archivos que has cambiado, junto con archivos que serán preparados y confirmados.
+
+
+
+$ git fecth origin => Notificarme que hay cambios en el repositorio remoto
+
+$ git reset  --hard origin/main => resetear la rama en la que estoy con la branch deseada
+
+$ git config => Lo usas para establecer una configuración específica de usuario, podría ser el email, usuario o tipo de formato.
+
+!!!!! $ git push => cargar contenido del repositorio local a un repositorio remoto . Empujar es cómo transfiere confirmaciones de su repositorio local a un repositorio remoto. 
+!!!!!
+
+$ git remote => mostrar repositorios remotos
+
+$ git checkout => crear ramas y navegar entre ellas.
+
+!!!!! $ git pull => usa para obtener y descargar contenido de un repositorio remoto y actualizar inmediatamente el repositorio local para que coincida con ese contenido . !!!!!
+
+$ git log => ver el historial de commits de un archivo
+$ git log --all => ver todos los commits
+
+!!!!! $ git rebase => te permite reescribir confirmaciones de una rama a otra rama . Esencialmente, Git está eliminando confirmaciones de una rama y agregándolas a otra.
+
+$ git reset => se utiliza para restablecer los archivos del índice (o el área de preparación) y del directorio de trabajo 
+$ git reset -hard => si usa “–hard”, se quedará con los archivos sin rastrear de su directorio de trabajo.
+!!!!!
+
+continuara....
