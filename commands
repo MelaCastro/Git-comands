@@ -10,7 +10,18 @@ $ git add => agregar archivos al area de preparacion
 $ git commit => crear un cambio para guardarlo en el directorio
 $ git status => muestre la lista de archivos que has cambiado, junto con archivos que serán preparados y confirmados.
 
+!! branch local
+$ git branch nombre_rama => crear branch
+$ git checkout nombre_branch => cambiar de rama
+$ git branch => mostrar ramas
+$ git branch -D nombre_rama => eliminar rama
 
+!! branch remoto
+$ git pull origin nombre_rama => traerse una rama remota a local
+$ git remote add nombre_branch => traerse los cambios de una rama remotas
+$ estando en la rama de la que vas a extraer
+$ git branch -r => ver solo las remotas
+$ git push origin nombre_rama => subir las branch en local a remoto
 
 $ git fecth origin => Notificarme que hay cambios en el repositorio remoto
 
@@ -18,22 +29,24 @@ $ git reset  --hard origin/main => resetear la rama en la que estoy con la branc
 
 $ git config => Lo usas para establecer una configuración específica de usuario, podría ser el email, usuario o tipo de formato.
 
-!!!!! $ git push => cargar contenido del repositorio local a un repositorio remoto . Empujar es cómo transfiere confirmaciones de su repositorio local a un repositorio remoto. 
+!!!!! $ git push => cargar contenido del repositorio local a un repositorio remoto . Empujar es cómo transfiere confirmaciones de su repositorio local a un repositorio remoto.
 !!!!!
 
 $ git remote => mostrar repositorios remotos
 
 $ git checkout => crear ramas y navegar entre ellas.
 
-!!!!! $ git pull => usa para obtener y descargar contenido de un repositorio remoto y actualizar inmediatamente el repositorio local para que coincida con ese contenido . !!!!!
+!!!!! $ git pull => usa para obtener y descargar contenido de un repositorio remoto y actualizar inmediatamente el repositorio local para que coincida con ese contenido . 
+!!!!!
 
 $ git log => ver el historial de commits de un archivo
 $ git log --all => ver todos los commits
 
 !!!!! $ git rebase => te permite reescribir confirmaciones de una rama a otra rama . Esencialmente, Git está eliminando confirmaciones de una rama y agregándolas a otra.
 
+$ git merge => git mergecomando le permite tomar las líneas de desarrollo independientes creadas por git branche integrarlas en una sola rama
+
 $ git reset => se utiliza para restablecer los archivos del índice (o el área de preparación) y del directorio de trabajo 
 $ git reset -hard => si usa “–hard”, se quedará con los archivos sin rastrear de su directorio de trabajo.
 !!!!!
 
-continuara....
